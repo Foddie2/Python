@@ -4,6 +4,7 @@
 #Run the function echo "# Python" >> README.md
 
 from asyncio import constants
+from re import T
 import qrcode
 
 def generate_qrcode(text):
@@ -13,3 +14,11 @@ def generate_qrcode(text):
         box_size=10,
         border=5    
     )
+
+    #Add data to the QR code 
+    qr.add_data(text)
+    qr.make(fit=True)
+    img = qr.make_image(fill_color='black', back_color='white')
+    img.save('qrimg.png')
+
+generate_qrcode('https://github.com/Foddie2')
