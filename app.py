@@ -22,7 +22,7 @@ def generate_qrcode(text):
     qr.add_data(text)
     qr.make(fit=True)
     img = qr.make_image(fill_color='black', back_color='white')
-    img.save('Github.png')
+    img.save('Twitterhttps://twitter.com/FoddieHurleyhttps://twitter.com/FoddieHurley.png')
 
 url = input ('Enter your URL: ')
 
