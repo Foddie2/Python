@@ -35,7 +35,7 @@ def generate_password():
             quit()
         else:
             print("Invalid input, Please input Yes or No")
-            quit()
+        quit()
 
 
         
