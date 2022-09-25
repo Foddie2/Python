@@ -19,3 +19,16 @@ def generate_password():
 
         password = []
 
+        for x in range(password_length):
+            password.append(random.choice(characters))
+        random.shuffle(password)
+
+        password = "".json(password)
+
+        print(password)
+
+        option = input("Do you want to generate the password? (Yes / No")
+        if option == "Yes":
+            generate_password
+        
+
