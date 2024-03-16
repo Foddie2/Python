@@ -37,7 +37,6 @@ class TimeManagementApp:
         self.evaluate_personal_time()
         self.analyze_time_allocation()
         self.monitor_time_changes()
-
 if __name__ == "__main__":
     time_management_app = TimeManagementApp()
     time_management_app.run()
