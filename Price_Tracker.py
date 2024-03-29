@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-url = "https://www.example.com/product"  # Replace with product URL
+url = "https://www.jumia.co.ke/generic-smartwatch-business-bluetooth-waterproof-sport-115543616.html"  # Replace with product URL
 desired_price = 50.00  # Set your target price
 
 while True:

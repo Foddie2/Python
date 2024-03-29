@@ -25,7 +25,7 @@ if __name__ == "__main__":
 	server_socket.listen(1)
 	conn, addr = server_socket.accept()
 	print(f"Connection established from {addr}")
-
+	
 	receive_command(conn)
 
 	conn.close()
